@@ -30,6 +30,7 @@
                 <div class="card-form">
                     <form action="">
                         <select class="ico ico_doc" id="tipoDocumento" name="tipoDocumento">
+                            <option value="">Tipo de documento</option>
                             <option value="00">DNI</option>
                             <option value="01">CARNET EXTRANJERIA</option>
                             <option value="02">CARNET MILITAR/POLICIAL</option>	
@@ -39,7 +40,7 @@
                             <option value="06">CARNET DE PERMISO TEMPORAL DE PERMANENCIA</option>
                         </select>
                         <input type="text" maxlength="8" placeholder="Número de documento" id="numeroDocumento" name="numeroDocumento" value="">
-                        <input type="text" name="fechaNacimiento" id="fechaNacimiento" class="ico ico_date calendario_completo hasDatepicker" maxlength="10" placeholder="Fecha Nacimiento" value="">
+                        <input type="text" maxlength="10" placeholder="Fecha Nacimiento" id="fechaNacimiento" name="fechaNacimiento" value="">
                         <div>
                             captcha
                         </div>
