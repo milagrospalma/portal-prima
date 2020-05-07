@@ -8,12 +8,10 @@
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 
 #container-login .form-container{
     width: 40%;
-    outline: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -119,5 +117,4 @@
 
 #container-login .img-container{
     width: 60%;
-    outline: 1px solid red;
 }
