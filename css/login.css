@@ -1,0 +1,24 @@
+#container-login{
+    background-color: rgb(231, 230, 230);
+    padding: 3em 0;
+}
+
+#container-login .container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+#container-login .form-container{
+    width: 50%;
+    outline: 1px solid red;
+}
+
+#container-login .img-container{
+    width: 50%;
+    height: 500px;
+    background-color: gray;
+    outline: 1px solid red;
+}
