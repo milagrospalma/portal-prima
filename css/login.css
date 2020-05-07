@@ -1,6 +1,6 @@
 #container-login{
-    background-color: rgb(231, 230, 230);
-    padding: 3em 0;
+    background-color: #F3F3F2;
+    padding: 5em 0;
 }
 
 #container-login .container{
@@ -8,17 +8,113 @@
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 
 #container-login .form-container{
-    width: 50%;
-    outline: 1px solid red;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
+#container-login .form-container>div{
+    text-align: center;
+    width: 398px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#container-login .form-container h2{
+    color: #FF4F00;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 28px;
+    letter-spacing: -0.00615385em;
+}
+
+#container-login .form-container p{
+    color: #696158;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#container-login .form-container .card-form{
+    background-color: #fff;
+    box-shadow: 5.67346px 3.78231px 14.1837px rgba(187, 187, 187, 0.2);
+    border-radius: 17.0204px;
+    margin: 2rem 0;
+    width: 90%;
+}
+
+#container-login .form-container .card-form form{
+    padding: 2.8rem;
+}
+
+#container-login .form-container .card-form form select, #container-login .form-container .card-form form input{
+    width: 100%;
+    background-color: #F4F6F8;
+    border-radius: 5.99683px;
+    height: 50px;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    padding: 15px 15px 15px 45px;
+    font-family: Calibri;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#container-login .form-container .card-form form input{
+    width: 100%;
+    font-family: Calibri;
+    font-size: 16px;
+    line-height: 20px;
+    color: #696158;
+    box-shadow: none;
+    box-sizing: border-box !important;
+    transition: all 0.25s ease-out;
+}
+
+#container-login .form-container .card-form form input::placeholder{
+    color: #9F9F9F;
+}
+
+#container-login #tipoDocumento{
+    background: #F4F6F8 url(../assets/images/dni.svg) no-repeat 14px 10px;
+    background-position: center left 1rem;
+}
+
+#container-login #numeroDocumento{
+    background: #F4F6F8 url(../assets/images/candado.svg) no-repeat 14px 10px;
+    background-position: center left 1rem;
+}
+
+#container-login #fechaNacimiento{
+    background: #F4F6F8 url(../assets/images/cumpleaños.svg) no-repeat 14px 10px;
+    background-position: center left 1rem;
+}
+
+#container-login .form-container .card-form form button{
+    width: 100%;
+    height: 50px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    background-color: #ff4f00;
+    border: solid 0px transparent;
+    border-radius: 7.1962px;
+    transition: all 0.25s ease-out;
+    cursor: pointer;
+}
+
+
+
 #container-login .img-container{
-    width: 50%;
-    height: 500px;
-    background-color: gray;
-    outline: 1px solid red;
+    width: 60%;
 }
