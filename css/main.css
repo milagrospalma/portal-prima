@@ -123,7 +123,7 @@ form div.monto-retiro-edit{
     justify-content: space-between;
 }
 
-div.part2 input{
+div.part2 input.monto, input.porcentaje, input.monto-referencial, div.item-input-check div.check-text{
     border: none;
     border-radius: 6px;
     background: #F7F7F6;
@@ -140,10 +140,14 @@ div.item-input label {
     font-size: 20px;
     line-height: 29px;
 }
+
+div.item-input-check div.check-text {
+    display: inline-block;
+}
+
 div.part2 input::placeholder{
     color: rgba(105, 97, 88, 0.24);
 }
-
 
 div.monto-retiro-edit input.monto::placeholder {
     color: #00AE99;
@@ -153,8 +157,20 @@ div.monto-retiro-edit input.monto::placeholder {
     line-height: 29px;
 }
 
-div.item-input input.check-text::placeholder {
+div.item-input input.check-text {
+    background: #FFFFFF;
+    border: 3px solid #696158;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 23px;
+    height: 23px;
+    display: inline;
+}
+
+div.item-input-check input.texto::placeholder {
     color: #656565;
+    border: none;
+    background:  #F7F7F6;;
 }
 
 
@@ -174,6 +190,8 @@ div button.confirmar {
     border-radius: 6px;
     background: #FF4F00;
     color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
     width: 168.65px;
     height: 44.64px;
 }
