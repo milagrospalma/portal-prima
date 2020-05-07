@@ -11,6 +11,22 @@ header{
     top: 0px;
 }
 
+header.navbar{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.hashtag{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
 div a img.logo {
     width: 149px;
     height: 61px;
@@ -40,7 +56,7 @@ section div.form-retiro {
     position: absolute;
 }
 
-div.part1, div.part2 {
+div.part1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,10 +107,19 @@ hr.divide {
 }
 
 div.part2 form {
-    align-items: center;
+    width: 70%;
+    margin: 0 auto;
 }
 
-form.retiro-editable div.monto-retiro-edit{    
+form div.monto-retiro-edit{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part2 .item-input{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -104,20 +129,46 @@ div.part2 input{
     background: #F7F7F6;
     width: 334px;
     height: 62px;
+    text-align: center;
+}
+
+div.item-input label {
+    color: #696158;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+}
+div.part2 input::placeholder{
+    color: rgba(105, 97, 88, 0.24);
 }
 
 
-form div.monto-retiro.edit input::placeholder {
+div.monto-retiro-edit input.monto::placeholder {
     color: #00AE99;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 29px;
 }
 
-input input.check {
-    border-radius: 3px;
-    border: none;
-    background-color: #FFFFFF;
+div.item-input input.check-text::placeholder {
+    color: #656565;
 }
 
 
+div.item-input input.porcentaje::placeholder, input.monto-referencial::placeholder {
+    color: rgba(105, 97, 88, 0.24);
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 29px;
+}
+
+div.btn-confirmar {
+    display:flex;
+    justify-content: center;
+}
 div button.confirmar {
     border: none;
     border-radius: 6px;
