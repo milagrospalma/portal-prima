@@ -25,7 +25,27 @@
     <div id="container-login">
         <div class="container">
             <div class="form-container">
-                1 of 2
+                <h2>Solicitud de retiro del 25%</h2>
+                <p>Ingresa tus datos para registrar tu solicitud</p>
+                <div class="card-form">
+                    <form action="">
+                        <select class="ico ico_doc" id="tipoDocumento" name="tipoDocumento">
+                            <option value="00">DNI</option>
+                            <option value="01">CARNET EXTRANJERIA</option>
+                            <option value="02">CARNET MILITAR/POLICIAL</option>	
+                            <option value="03">LIBRETA DEL ADOLESCENTE</option>
+                            <option value="04">PASAPORTE</option>
+                            <option value="05">INEXISTENTE</option>
+                            <option value="06">CARNET DE PERMISO TEMPORAL DE PERMANENCIA</option>
+                        </select>
+                        <input type="text" maxlength="8" placeholder="Número de documento" id="numeroDocumento" name="numeroDocumento" value="">
+                        <input type="text" name="fechaNacimiento" id="fechaNacimiento" class="ico ico_date calendario_completo hasDatepicker" maxlength="10" placeholder="Fecha Nacimiento" value="">
+                        <div>
+                            captcha
+                        </div>
+                        <button>Empezar</button>
+                    </form>
+                </div>
             </div>
             <div class="img-container">
                 2 of 2
