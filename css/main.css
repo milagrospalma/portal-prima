@@ -80,8 +80,7 @@ div.monto-retiro p{
     margin-top: 3.5%;
     margin-left: 35%; 
     display: flex;
-    justify-content: center / space-between / space-around / flex-end;
-    align-items:
+    justify-content: center;
 }
 
 div.text-indicador p{
