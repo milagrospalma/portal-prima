@@ -94,7 +94,7 @@ div.part2 form {
     align-items: center;
 }
 
-form div.monto-retiro-edit{    
+form.retiro-editable div.monto-retiro-edit{    
     justify-content: space-between;
 }
 
@@ -105,6 +105,18 @@ div.part2 input{
     width: 334px;
     height: 62px;
 }
+
+
+form div.monto-retiro.edit input::placeholder {
+    color: #00AE99;
+}
+
+input input.check {
+    border-radius: 3px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
 
 div button.confirmar {
     border: none;

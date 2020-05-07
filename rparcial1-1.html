@@ -43,20 +43,23 @@
         <form class="retiro-editable">
           <div class="monto-retiro-edit">
             <label for="fname" class="">Indica el monto que deseas retirar:</label>
-            <input type="text" id="fname" name="fname" placeholder="s/.10,500.00"><br>  
-          </div>          
-          <hr class="divide">         
+            <input type="text" id="fname" name="fname" placeholder="s/.10,500.00"><br>
+          </div>
+          <hr class="divide">
           <div>
             <label for="lname">¿Desearías mantener un saldo en la AFP con libre disponibilidad? </label>
-            <input type="text" id="lname" name="lname" value="Si, deseo hacerlo">
+            <input type="text" id="lname" name="lname">
+            <input type="checkbox" class="check">
+            <p>Si, deseo hacerlo</p>
+            </input>
           </div><br>
           <div>
             <label for="fname">Indica el porcentaje que deseas mantener en la AFP con libre disponibilidad:</label>
-            <input type="text" id="fname" name="fname" value="0%"><br> 
+            <input type="text" id="fname" name="fname" placeholder="0%"><br>
           </div><br>
           <div>
             <label for="lname">El monto referencial en S/ es de: </label>
-            <input type="text" id="lname" name="lname" value="S/. 0.00">  
+            <input type="text" id="lname" name="lname" placeholder="S/. 0.00">
           </div><br>
           <div><button class="confirmar">Confirmar</button></div>
         </form>
