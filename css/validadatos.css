@@ -3,48 +3,6 @@ body {
     font-family: Calibri;
 }
 
-header{
-    background: #FF4F00;
-    width: 100%;
-    height: 96.89px;
-    left: 0px;
-    top: 0px;
-}
-
-header div.navbar{
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header.hashtag{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
-    color: #FFFFFF;
-}
-
-div a img.logo {
-    width: 149px;
-    height: 61px;
-    left: 210.18px;
-    top: 17.89px;
-}
-
-p b.hashtag {
-    left: 75.86%;
-    right: 11.02%;
-    top: 30%;
-    bottom: 93%;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
-    color: #FFFFFF;
-}
-
 #contenido {
     background: #E5E5E5;
 }

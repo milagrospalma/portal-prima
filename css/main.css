@@ -11,7 +11,7 @@ body{
 
 header{
     background: #FF4F00;
-    height: 96.89px;
+    height: 60px;
 }
 
 header .navbar{
@@ -25,13 +25,13 @@ header .navbar{
 
 header .logo{
     width: 150px;
-    height: 60px;
+    height: 43px;
 }
 
 header .hashtag{
     font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
+    font-weight: normal;
+    font-size: 16px;
     color: #FFFFFF;
 }
 
