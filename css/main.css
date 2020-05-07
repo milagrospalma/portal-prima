@@ -40,7 +40,7 @@ section div.form-retiro {
     position: absolute;
 }
 
-div.part1, div.part2 {
+div.part1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,10 +91,19 @@ hr.divide {
 }
 
 div.part2 form {
-    align-items: center;
+    width: 70%;
+    margin: 0 auto;
 }
 
 form div.monto-retiro-edit{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part2 .item-input{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -104,6 +113,11 @@ div.part2 input{
     background: #F7F7F6;
     width: 334px;
     height: 62px;
+    text-align: center;
+}
+
+div.part2 input::placeholder{
+    color: rgba(105, 97, 88, 0.24);
 }
 
 div button.confirmar {
