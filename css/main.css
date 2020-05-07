@@ -44,30 +44,33 @@ section div.form-retiro {
     box-shadow: 0px 2.40333px 41.2743px rgba(0, 0, 0, 0.04);
     border-radius: 20.6371px;
     position: absolute;
-
 }
 
 div.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 div.text-name p{
     color: #696158;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 23px;
-    left: 41.19%;
-    top: 10%;
+    margin-top: 3%;    
+    display: flex;
+    justify-content: center;
 }
 
 div.monto-retiro {
     background: rgba(105, 97, 88, 0.05);
     border-radius: 12px;
     width: 703px;
-    height: 94px;
-    margin-top: 13%;
-    margin-left: 20%;
-
+    height: 94px;    
+    display: flex;
+    justify-content: center;
 }
 
 div.monto-retiro p{
@@ -75,10 +78,6 @@ div.monto-retiro p{
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    line-height: 44px;
-    align-items: center;
-    margin-top: 3.5%;
-    margin-left: 35%; 
     display: flex;
     justify-content: center;
 }
@@ -87,13 +86,138 @@ div.text-indicador p{
     color: #696158;
     font-family: Calibri;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 35px;
     text-align: center;
-    margin-top: 10%;
 }
 
 hr.divide {
-    border: dashed;
-    width: 20%;
-    
+    border: dashed  rgba(0, 0, 0, 0.1);;
+    width: 90%;   
+}
+
+div.part2 form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+form div.monto-retiro-edit{    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form div.monto-retiro-edit img.pencil{        
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    margin-left: 65%;
+}
+
+.part2 .item-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.part2 input.monto, input.porcentaje, input.monto-referencial, div.item-input-check div.check-text{
+    border: none;
+    border-radius: 6px;
+    background: #F7F7F6;
+    width: 334px;
+    height: 62px;
+    text-align: center;
+}
+
+div.item-input label {
+    color: #696158;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+div.item-input-check div.check-text input.check {
+    background: #FFFFFF;
+    border: 3px solid #696158;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+div.item-input-check div.check-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.part2 input::placeholder{
+    color: rgba(105, 97, 88, 0.24);
+}
+
+div.monto-retiro-edit input.monto::placeholder {
+    color: #00AE99;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 29px;
+}
+
+input.porcentaje {
+    margin-left: 2%;
+}
+
+div.item-input img.picker{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    margin-left: 65%;
+    border-left: 1px solid #D9D9D9;
+}
+
+div.item-input-check {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.item-input-check p.text-si {
+    display: contents;    
+    align-items: center;
+    color: #656565;
+}
+
+div.item-input input.check {
+    background: #FFFFFF;
+    border: 3px solid #696158;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: inline;
+}
+
+div.item-input-check input.texto::placeholder {
+    color: #656565;
+    border: none;
+    background:  #F7F7F6;;
+}
+
+
+div.item-input input.porcentaje::placeholder, input.monto-referencial::placeholder {
+    color: rgba(105, 97, 88, 0.24);
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 29px;
+}
+
+div.btn-confirmar {
+    display:flex;
+    justify-content: center;
+}
+div button.confirmar {
+    border: none;
+    border-radius: 6px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    width: 168.65px;
+    height: 44.64px;
 }

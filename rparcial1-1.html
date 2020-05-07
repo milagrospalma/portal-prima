@@ -21,8 +21,8 @@
 
 <body>
   <header class="header">
-    <div class="header-nav">
-      <a href="#"><img class="logo" src="assets/images/LOGO.png" alt="logo"></a>
+    <div class="navbar">
+      <a href="#"><img class="logo" src="assets/images/logoprima.svg" alt="logo"></a>
       <p><b class="hashtag">#EstamosTrabajandoPorTi</b></p>
     </div>
   </header>
@@ -38,25 +38,33 @@
         <div class="text-indicador">
           <p>El calculo del monto es a la fecha XX/XX/XXXX. El monto puede variar por el valor cuota.</p>
         </div>
+      </div><br>
+      <div class="part2">
         <form class="retiro-editable">
-          <label for="fname">Indica el monto que deseas retirar:</label>
-          <input type="text" id="fname" name="fname"><br>
-          <hr class="divide">
-          <label for="lname">¿Desearías mantener un saldo en la AFP con libre disponibilidad? </label>
-          <input type="text" id="lname" name="lname">
-          <label for="fname">Indica el porcentaje que deseas mantener en la AFP con libre disponibilidad:</label>
-          <input type="text" id="fname" name="fname"><br>
-          <label for="lname">El monto referencial en S/ es de: </label>
-          <input type="text" id="lname" name="lname">
+          <div class="monto-retiro-edit">
+            <label for="fname" class="">Indica el monto que deseas retirar:</label>
+            <input class="monto" type="text" id="fname" name="fname" placeholder="s/.10,500.00" > 
+            <img src="assets/images/lapiz.svg" alt="lapiz" class="pencil">
+          </div>          
+          <hr class="divide">         
+          <div class="item-input-check">
+            <label for="lname">¿Desearías mantener un saldo en la AFP <p>con <b>libre disponibilidad?</b></p> </label>
+            <div class="check-text" >
+              <input class="check" type="checkbox" id="lname" name="lname">   
+              <p class="text-si">Si, deseo hacerlo</p>
+            </div> 
+          </div><br>
+          <div class="item-input">
+            <label for="fname">Indica el porcentaje que deseas mantener con<br>libre disponibilidad: </label>
+            <input class="porcentaje" type="text" id="fname" name="fname" placeholder="0%"><br> 
+            <img src="assets/images/picker.svg" alt="picker" class="picker">
+          </div><br>
+          <div class="item-input">
+            <label for="lname">El monto referencial en S/ es de: </label>
+            <input class="monto-referencial" type="text" id="lname" name="lname" placeholder="S/. 0.00">  
+          </div><br>
+          <div class="btn-confirmar"><button class="confirmar">Confirmar</button></div>
         </form>
-      </div>
-      <div class="2">
-        <div></div>
-        <div></div>
-      </div>
-      <div class="3">
-        <div></div>
-        <div></div>
       </div>
     </div>
   </section>
