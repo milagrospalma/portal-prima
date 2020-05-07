@@ -23,6 +23,11 @@ header .navbar{
     align-items: center;
 }
 
+header .logo{
+    width: 150px;
+    height: 60px;
+}
+
 header .hashtag{
     font-style: normal;
     font-weight: bold;
@@ -30,18 +35,65 @@ header .hashtag{
     color: #FFFFFF;
 }
 
-/* 
 section div.form-retiro {
-    position: absolute;
     width: 1037.42px;
     height: 893px;
     left: 15%;
     top: 158px;
-    background: #000000;
+    background: #ffffff;
     box-shadow: 0px 2.40333px 41.2743px rgba(0, 0, 0, 0.04);
     border-radius: 20.6371px;
+    position: absolute;
+
 }
 
 div.part1 {
-    background: red;
-} */
+}
+
+div.text-name p{
+    color: #696158;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 23px;
+    left: 41.19%;
+    top: 10%;
+}
+
+div.monto-retiro {
+    background: rgba(105, 97, 88, 0.05);
+    border-radius: 12px;
+    width: 703px;
+    height: 94px;
+    margin-top: 13%;
+    margin-left: 20%;
+
+}
+
+div.monto-retiro p{
+    color: #00AE99;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    align-items: center;
+    margin-top: 3.5%;
+    margin-left: 35%; 
+    display: flex;
+    justify-content: center;
+}
+
+div.text-indicador p{
+    color: #696158;
+    font-family: Calibri;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+hr.divide {
+    border: dashed;
+    width: 20%;
+    
+}
