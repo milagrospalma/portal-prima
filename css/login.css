@@ -1,6 +1,6 @@
 #container-login{
     background-color: #F3F3F2;
-    padding: 3em 0;
+    padding: 5em 0;
 }
 
 #container-login .container{
@@ -12,25 +12,34 @@
 }
 
 #container-login .form-container{
-    width: 50%;
+    width: 40%;
     outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#container-login .form-container>div{
+    text-align: center;
+    width: 398px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
 #container-login .form-container h2{
     color: #FF4F00;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 32px;
     line-height: 28px;
     letter-spacing: -0.00615385em;
 }
 
 #container-login .form-container p{
     color: #696158;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
 }
 
@@ -39,7 +48,7 @@
     box-shadow: 5.67346px 3.78231px 14.1837px rgba(187, 187, 187, 0.2);
     border-radius: 17.0204px;
     margin: 2rem 0;
-    width: 60%;
+    width: 90%;
 }
 
 #container-login .form-container .card-form form{
@@ -54,7 +63,7 @@
     margin-bottom: 2rem;
     border: none;
     outline: none;
-    padding: 15px 15px 15px 40px;
+    padding: 15px 15px 15px 45px;
     font-family: Calibri;
     font-size: 16px;
     line-height: 20px;
@@ -76,15 +85,18 @@
 }
 
 #container-login #tipoDocumento{
-    /* background: url(../assets/images/dni.svg) no-repeat 14px 10px; */
+    background: #F4F6F8 url(../assets/images/dni.svg) no-repeat 14px 10px;
+    background-position: center left 1rem;
 }
 
 #container-login #numeroDocumento{
-    /* background: url(../assets/images/candado.svg) no-repeat 14px 10px; */
+    background: #F4F6F8 url(../assets/images/candado.svg) no-repeat 14px 10px;
+    background-position: center left 1rem;
 }
 
 #container-login #fechaNacimiento{
-    /* background: url(../assets/images/cumpleaños.svg) no-repeat 14px 10px; */
+    background: #F4F6F8 url(../assets/images/cumpleaños.svg) no-repeat 14px 10px;
+    background-position: center left 1rem;
 }
 
 #container-login .form-container .card-form form button{
@@ -106,8 +118,6 @@
 
 
 #container-login .img-container{
-    width: 50%;
-    height: 500px;
-    background-color: gray;
+    width: 60%;
     outline: 1px solid red;
 }
