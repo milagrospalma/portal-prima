@@ -1,5 +1,5 @@
 #container-login{
-    background-color: rgb(231, 230, 230);
+    background-color: #F3F3F2;
     padding: 3em 0;
 }
 
@@ -19,10 +19,16 @@
 #container-login .form-container h2{
     color: #FF4F00;
     margin-bottom: .5rem;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: -0.00615385em;
 }
 
 #container-login .form-container p{
     color: #696158;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 #container-login .form-container .card-form{
@@ -38,10 +44,11 @@
 
 #container-login .form-container .card-form form select, #container-login .form-container .card-form form input{
     width: 100%;
-    background-color: lightgray;
-    border-radius: 8px;
+    background-color: #F4F6F8;
+    border-radius: 5.99683px;
     height: 45px;
     margin-bottom: 2rem;
+    border: none;
 }
 
 #container-login .form-container .card-form form input{
@@ -49,7 +56,6 @@
     font-size: 18px;
     line-height: 20px;
     color: #9F9F9F;
-    background-color: rgb(212, 212, 212);
     border: none;
     outline: none;
     box-shadow: 0px 7px 18px -4px rgba(0, 0, 0, 0.05);
