@@ -1,0 +1,130 @@
+body {
+    background: rgba(0, 0, 0, 0.56);
+    font-family: Calibri;
+}
+
+header{
+    background: #FF4F00;
+    width: 100%;
+    height: 96.89px;
+    left: 0px;
+    top: 0px;
+}
+
+header div.navbar{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.hashtag{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+div a img.logo {
+    width: 149px;
+    height: 61px;
+    left: 210.18px;
+    top: 17.89px;
+}
+
+p b.hashtag {
+    left: 75.86%;
+    right: 11.02%;
+    top: 30%;
+    bottom: 93%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+
+#contenido {
+    background: #E5E5E5;
+}
+
+#contenido .form-retiro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;   
+    width: 80%;
+}
+
+#contenido .form-retiro .mensaje{
+    width: 774px;
+    height: 163px;
+    background: #F4F6F8;
+    border-radius: 8px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+div.mensaje div.msj-cliente p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    width: 14em;
+    display: flex;
+}
+
+form.form-montos div.item-input{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.item-input input {
+    width: 334px;
+    height: 62px;
+    background: #F4F6F8;
+    border-radius: 12.1712px;
+    border: none;
+}
+
+div.item-input label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #656565;
+    width: 14em;
+}
+
+div.item-input input::placeholder{
+    color: #00AE99;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+}
+
+form.form-montos div.btns{
+    display: flex;
+    justify-content: space-around;
+    line-height: 10pc;
+}
+
+div.btns button {
+    border: none;
+    border-radius: 6px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    width: 168.65px;
+    height: 44.64px;
+}
