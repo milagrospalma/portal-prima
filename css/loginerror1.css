@@ -35,12 +35,6 @@
     letter-spacing: -0.00615385em;
 }
 
-#container-login .form-container p{
-    color: #696158;
-    font-size: 20px;
-    line-height: 20px;
-}
-
 #container-login .form-container .card-form{
     background-color: #fff;
     box-shadow: 5.67346px 3.78231px 14.1837px rgba(187, 187, 187, 0.2);
@@ -53,18 +47,32 @@
     padding: 2.8rem;
 }
 
+
+
+#container-login .form-container p{
+    color: #696158;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+#container-login .form-container p.error{
+    color: #FF0000;    
+    font-size: 12px;
+    text-align: left;
+}
 #container-login .form-container .card-form form select, #container-login .form-container .card-form form input{
     width: 100%;
     background-color: #F4F6F8;
     border-radius: 5.99683px;
     height: 50px;
-    margin-bottom: 2rem;
     border: none;
     outline: none;
     padding: 15px 15px 15px 45px;
     font-family: Calibri;
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 0rem;
 }
 
 #container-login .form-container .card-form form input{
@@ -85,16 +93,19 @@
 #container-login #tipoDocumento{
     background: #F4F6F8 url(../assets/images/dni.svg) no-repeat 14px 10px;
     background-position: center left 1rem;
+    border: 2px solid #FF5C5C;
 }
 
 #container-login #numeroDocumento{
     background: #F4F6F8 url(../assets/images/candado.svg) no-repeat 14px 10px;
     background-position: center left 1rem;
+    border: 2px solid #FF5C5C;
 }
 
 #container-login #fechaNacimiento{
     background: #F4F6F8 url(../assets/images/cumpleaños.svg) no-repeat 14px 10px;
     background-position: center left 1rem;
+    border: 2px solid #FF5C5C;
 }
 
 #container-login .form-container .card-form form button{
@@ -121,3 +132,6 @@
 #container-login .img-container{
     width: 60%;
 }
+
+
+
