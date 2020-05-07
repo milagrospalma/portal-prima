@@ -40,10 +40,16 @@
                                 <option value="05">INEXISTENTE</option>
                                 <option value="06">CARNET DE PERMISO TEMPORAL DE PERMANENCIA</option>
                             </select>
+                            <p class="error">Seleccione el tipo de documento</p>
+                            <br>
                             <input type="text" maxlength="8" placeholder="Número de documento" id="numeroDocumento" name="numeroDocumento" value="">
+                            <p class="error">Ingrese un número válido</p>
+                            <br>
                             <input type="text" maxlength="10" placeholder="Fecha Nacimiento" id="fechaNacimiento" name="fechaNacimiento" value="">
-                            <div>
-                                captcha
+                            <p class="error">Ingrese una fecha válida</p>
+                            <br>
+                            <div id="captcha">
+                                CAPTCHA
                             </div>
                             <button>Empezar</button>
                         </form>
