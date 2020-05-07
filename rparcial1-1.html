@@ -22,7 +22,7 @@
 <body>
   <header class="header">
     <div class="header-nav">
-      <a href="#"><img class="logo" src="assets/images/LOGO.png" alt="logo"></a>
+      <a href="#"><img class="logo" src="assets/images/logoprima.svg" alt="logo"></a>
       <p><b class="hashtag">#EstamosTrabajandoPorTi</b></p>
     </div>
   </header>
@@ -38,25 +38,28 @@
         <div class="text-indicador">
           <p>El calculo del monto es a la fecha XX/XX/XXXX. El monto puede variar por el valor cuota.</p>
         </div>
+      </div><br>
+      <div class="part2">
         <form class="retiro-editable">
-          <label for="fname">Indica el monto que deseas retirar:</label>
-          <input type="text" id="fname" name="fname"><br>
-          <hr class="divide">
-          <label for="lname">¿Desearías mantener un saldo en la AFP con libre disponibilidad? </label>
-          <input type="text" id="lname" name="lname">
-          <label for="fname">Indica el porcentaje que deseas mantener en la AFP con libre disponibilidad:</label>
-          <input type="text" id="fname" name="fname"><br>
-          <label for="lname">El monto referencial en S/ es de: </label>
-          <input type="text" id="lname" name="lname">
+          <div class="monto-retiro-edit">
+            <label for="fname" class="">Indica el monto que deseas retirar:</label>
+            <input type="text" id="fname" name="fname" placeholder="s/.10,500.00"><br>  
+          </div>          
+          <hr class="divide">         
+          <div>
+            <label for="lname">¿Desearías mantener un saldo en la AFP con libre disponibilidad? </label>
+            <input type="text" id="lname" name="lname" value="Si, deseo hacerlo">
+          </div><br>
+          <div>
+            <label for="fname">Indica el porcentaje que deseas mantener en la AFP con libre disponibilidad:</label>
+            <input type="text" id="fname" name="fname" value="0%"><br> 
+          </div><br>
+          <div>
+            <label for="lname">El monto referencial en S/ es de: </label>
+            <input type="text" id="lname" name="lname" value="S/. 0.00">  
+          </div><br>
+          <div><button class="confirmar">Confirmar</button></div>
         </form>
-      </div>
-      <div class="2">
-        <div></div>
-        <div></div>
-      </div>
-      <div class="3">
-        <div></div>
-        <div></div>
       </div>
     </div>
   </section>

@@ -38,30 +38,33 @@ section div.form-retiro {
     box-shadow: 0px 2.40333px 41.2743px rgba(0, 0, 0, 0.04);
     border-radius: 20.6371px;
     position: absolute;
-
 }
 
-div.part1 {
+div.part1, div.part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 div.text-name p{
     color: #696158;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 23px;
-    left: 41.19%;
-    top: 10%;
+    margin-top: 3%;    
+    display: flex;
+    justify-content: center;
 }
 
 div.monto-retiro {
     background: rgba(105, 97, 88, 0.05);
     border-radius: 12px;
     width: 703px;
-    height: 94px;
-    margin-top: 13%;
-    margin-left: 20%;
-
+    height: 94px;    
+    display: flex;
+    justify-content: center;
 }
 
 div.monto-retiro p{
@@ -69,26 +72,45 @@ div.monto-retiro p{
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
-    line-height: 44px;
-    align-items: center;
-    margin-top: 3.5%;
-    margin-left: 35%; 
     display: flex;
-justify-content: center / space-between / space-around / flex-end;
-align-items:
+    justify-content: center;
+    align-items: flex-end;
 }
 
 div.text-indicador p{
     color: #696158;
     font-family: Calibri;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 35px;
     text-align: center;
-    margin-top: 10%;
 }
 
 hr.divide {
-    border: dashed;
-    width: 20%;
-    
+    border: dashed  rgba(0, 0, 0, 0.1);;
+    width: 90%;   
+}
+
+div.part2 form {
+    align-items: center;
+}
+
+form div.monto-retiro-edit{    
+    justify-content: space-between;
+}
+
+div.part2 input{
+    border: none;
+    border-radius: 6px;
+    background: #F7F7F6;
+    width: 334px;
+    height: 62px;
+}
+
+div button.confirmar {
+    border: none;
+    border-radius: 6px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    width: 168.65px;
+    height: 44.64px;
 }
