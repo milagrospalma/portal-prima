@@ -1,20 +1,18 @@
 #container-login{
     background-color: #F3F3F2;
-    padding: 5em 0;
+    height: 70%;
 }
 
 #container-login .container{
     display: flex;
-    justify-content: center;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 #container-login .form-container{
-    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 5%;
 }
 
 #container-login .form-container>div{
@@ -131,8 +129,4 @@
 #captcha {    
     width: 100%;
     height: 60px;   
-}
-
-#container-login .img-container{
-    width: 60%;
 }
