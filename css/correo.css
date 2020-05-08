@@ -1,0 +1,83 @@
+body {
+    background: #E5E5E5;
+}
+
+#card-error {
+    width: 70%;
+    height: 60%;
+    left: 15%;
+    top: 15%;
+    background: #ffffff;
+    box-shadow: 0px 2.40333px 41.2743px rgba(0, 0, 0, 0.04);
+    border-radius: 20.6371px;
+    position: absolute;
+} 
+
+#text-error h1 {
+    color: #696358;
+    font-size: 20px;
+}
+
+#form-mail {
+    width: 65%;
+}
+
+#form-mail .titulo {
+    color: #00AE99;
+    font-weight: bold;
+    font-size: larger;
+}
+
+div.mail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;    
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div.mail .mail1 input, div.mail .mail2 input {
+    background: #F4F6F8;
+    border-radius: 8px;
+    border: none;    
+    background: #F4F6F8 url(../assets/images/lapiz.svg) no-repeat center;
+    background-position-x: 14em;
+    background-size: auto;    
+    width: 235px;
+    height: 38px;
+}
+div.mail .mail1 input::placeholder, div.mail .mail2 input::placeholder {
+    color: #959595;
+    text-indent: 5%;
+}
+
+#btns {
+    text-align-last: justify;
+    width: 70%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 32%;
+}
+
+#btns button.atras {
+    border: none;
+    border-radius: 6.5px;
+    background: #ffffff;
+    border: 2px solid rgba(105, 97, 88, 0.2);
+    color: #696158;
+    font-size: 18px;
+    width: 168.65px;
+    height: 44.64px;
+    text-align-last:center;
+}
+
+#btns button.finalizar {
+    border: none;
+    border-radius: 6.5px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 168.65px;
+    height: 44.64px;
+    text-align-last:center;
+}

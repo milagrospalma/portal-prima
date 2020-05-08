@@ -1,0 +1,12 @@
+#text-error {
+    margin-left: 5%;
+}
+
+#form {
+    width: 65%;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+}

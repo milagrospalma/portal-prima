@@ -1,0 +1,46 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 78%;
+    font-size: 15px;
+}
+
+div button.confirmar {
+    border: none;
+    border-radius: 6px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    width: 168.65px;
+    height: 44.64px;
+    margin-top: 10%;
+}
+#texto-aviso ul li{
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+#sombra {
+    display: flex;
+    background: #F4F6F8;
+    padding: 29px;
+    border-radius: 5px;
+    width: 80%;
+    align-items: center;
+    place-items: flex-end;
+
+}
+h1 {
+    color: #00AE99;
+}
+
+#img-error img {
+    width: 60px;
+    height: 70px;
+}
+
+#text-error p {
+    width: 85%;
+}

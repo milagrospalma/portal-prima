@@ -13,6 +13,7 @@
     flex-direction: column;
     align-items: flex-end;
     margin-top: 5%;
+    margin-left: 15%;
 }
 
 #container-login .form-container>div{
@@ -105,10 +106,9 @@
     width: 256px;
 }
 
-/*form option #tipo-doc {
-    height: 38px;
-    width: 256px;
-}*/
+#img-container img {
+    height: 500px;
+}
 
 #container-login .form-container .card-form form button{
     width: 100%;
