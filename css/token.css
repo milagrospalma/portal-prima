@@ -1,0 +1,96 @@
+#contenido {
+    background: black;
+}
+
+#card {
+    box-shadow: 5.67346px 3.78231px 14.1837px rgba(187, 187, 187, 0.2);
+    border-radius: 16px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    left: 17%;
+    top: 20%;
+}
+
+div.mensaje {
+    background: #F7F7F6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 70%;
+    margin-top: 8%;
+}
+
+#card .img-cliente {
+    width: 50%;
+    height: 70%;
+    margin-left: 0;
+    margin-top: 4%;
+}
+
+h1 {
+    color: #00AE99;
+    font-size: x-large;
+}
+
+div.verificacion {
+    font-size: 15px
+}
+
+div.ingresa-datos {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    width: 70%;
+}
+
+div.ingresa-datos div p{
+    color: #696158;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 3em;
+    text-align-last: center;
+}
+
+div.item-input1 input {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background: #F9F9F9;
+    border: 2px solid #C0C0C0;    
+}
+
+div.item-input1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 15% 0 15%;
+
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: -webkit-center;
+}
+
+#btns .validar{
+    border: none;
+    border-radius: 6.5px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 168.65px;
+    height: 44.64px;
+    text-align-last:center;
+}
+
+#btns a {
+    color: #FF4F00;
+}
