@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/loginerror404.css">
+  <link rel="stylesheet" href="css/datos.css">
+   <link rel="stylesheet" href="css/login.css">
+
+  <title>Registro de e-mail</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <a href="#"><img class="logo" src="assets/images/logoprima.svg" alt="logo"></a>
+      <p class="hashtag">#EstamosTrabajandoPorTi</p>
+    </div>
+  </header>
+
+  <section id="contenido">
+    <div id="card-error">
+      <div id="sombra">
+        <div id="img-error"><img src="assets/images/bien.svg" alt=""></div>
+        <div id="text-error">
+          <h1>Luis, completa los siguientes datos para tu retiro</h1><br>
+        </div>
+      </div>
+      <div id="form-mail">
+        <div class="titulo">Información para tu retiro</div>
+        <hr>
+        <div class="mail">
+          <div class="mail1">
+            <p>Forma de pago</p>
+            <select class="ico ico_doc" id="tipoDocumento" name="tipoDocumento">
+                                <option value="00" id="tipo-doc">Selecciona forma de pago</option>
+                                <option value="01">Retiro</option>
+                                <option value="08">Depósito</option>
+                            </select>
+          </div>
+             <div class="mail1">
+            <p>Banco</p>
+            <select class="ico ico_doc" id="tipoDocumento" name="tipoDocumento">
+                                <option value="00" id="tipo-doc">Selecciona tu banco</option>
+                                <option value="01">BCP</option>
+                                <option value="08">SCOTIABANK</option>
+                                <option value="08">BBVA</option>
+                                <option value="08">INTERBANK</option>
+                                 <option value="08">PICHINCHA</option>
+                            </select>
+          </div>
+          <div class="mail2">
+            <p>Nº de Cunta</p>
+            <input type="text"  placeholder="Nº de cuenta">
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="form-mail1">
+        <div class="titulo">Datos de contacto</div>
+        <hr>
+        <div class="mail">
+          <div class="mail1">
+            <p>Correo electrónico</p>
+            <input type="text" placeholder="Registra tu correo">
+          </div>
+          
+          
+          <div class="mail2">
+            <p>Confirmación correo electrónico</p>
+            <input type="text"  placeholder="Confirma tu correo">
+          </div>
+        </div>
+      </div>
+      
+          
+      <div id="form-mail2">
+        <div class="titulo">Datos de contacto</div>
+        <hr>
+        <div class="mail">
+          <div class="mail1">
+            <p>Correo electrónico</p>
+              <select class="ico ico_doc" id="tipoDocumento" name="tipoDocumento">
+                                <option value="00" id="tipo-doc">Selecciona departamento</option>
+                                <option value="01">Retiro</option>
+                                <option value="08">Depósito</option>
+                            </select>
+          </div>
+           <div class="mail1">
+            <p>Banco</p>
+              <select class="ico ico_doc" id="tipoDocumento" name="tipoDocumento">
+                                <option value="00" id="tipo-doc">Selecciona provincia</option>
+                                <option value="01">Retiro</option>
+                                <option value="08">Depósito</option>
+                            </select>
+          </div>
+          <div class="mail2">
+            <p>Confirmación correo electrónico</p>
+            <input type="text"  placeholder="Selecciona tu distrito">
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+
+    </div>
+    
+    
+   
+   
+   
+   
+    <div id="btns">
+      <button class="atras">Atrás</button>
+      <button class="finalizar">Finalizar</button>
+    </div>
+
+  </section>
+</body>
+
+</html>

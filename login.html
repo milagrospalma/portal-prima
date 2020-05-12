@@ -10,6 +10,12 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/login.css">
+    <!--JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>    
+
 
     <title>Login</title>
 </head>
@@ -21,42 +27,65 @@
             <p class="hashtag">#EstamosTrabajandoPorTi</p>
         </div>
     </header>
-    
+
     <section id="container-login">
         <div class="container">
+
+            <div id="ex1" class="modal">
+                <p>Thanks for clicking. That felt good.</p>
+                <a href="#" rel="modal:close">Close</a>
+              </div>
+              
+              <!-- Link to open the modal -->
+              <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+            
+
             <div class="form-container">
                 <h2>Solicitud de retiro del 25%</h2>
-                    <p>Ingresa tus datos para registrar tu solicitud</p>
+                <p>Ingresa tus datos para registrar tu solicitud</p>
                 <div>
-                    
+
                     <div class="card-form">
                         <form action="">
                             <select class="ico ico_doc" id="tipoDocumento" name="tipoDocumento">
                                 <option value="00" id="tipo-doc">Tipo de documento</option>
                                 <option value="01">DNI</option>
                                 <option value="08">CARNET EXTRANJERIA</option>
-                                <option value="02">CARNET MILITAR/POLICIAL</option>	
+                                <option value="02">CARNET MILITAR/POLICIAL</option>
                                 <option value="03">LIBRETA DEL ADOLESCENTE</option>
                                 <option value="04">PASAPORTE</option>
                                 <option value="05">INEXISTENTE</option>
                                 <option value="06">CARNET DE PERMISO TEMPORAL DE PERMANENCIA</option>
                             </select>
-                            <input type="text" maxlength="8" placeholder="Número de documento" id="numeroDocumento" name="numeroDocumento" value="">
-                            <input type="text" maxlength="10" placeholder="Fecha Nacimiento" id="fechaNacimiento" name="fechaNacimiento" value="">
+                            <input type="text" maxlength="8" placeholder="Número de documento" id="numeroDocumento"
+                                name="numeroDocumento" value="">
+                            <input type="text" maxlength="10" placeholder="Fecha Nacimiento" id="fechaNacimiento"
+                                name="fechaNacimiento" value="">
                             <div>
                                 captcha
                             </div>
-                            <button>Empezar</button>
+                            <button id="myBtn">Empezar</button>
                         </form>
                     </div>
+
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Some text in the Modal..</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div id="img-container">
-                <img src="assets/images/imagenlogin.svg" alt="Quédate en Casa">
-            </div>
+        </div>
+        <div id="img-container">
+            <img src="assets/images/imagenlogin.svg" alt="Quédate en Casa">
+        </div>
         </div>
     </section>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 </body>
 
 </html>
