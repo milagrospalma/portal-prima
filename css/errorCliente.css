@@ -1,0 +1,53 @@
+#card-error {
+    background: #ffffff;
+    box-shadow: 0px 2.40333px 41.2743px rgba(0, 0, 0, 0.04);
+    border-radius: 20.6371px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 20%;
+    top: 20%;
+    position: absolute;
+    height: 70%;
+    width: 60%;
+    justify-content: space-around;
+}
+
+#text-error {
+    margin-left: 5%;
+}
+
+#text-error h1 {
+    margin-bottom: 10px;
+}
+
+#text-error p {
+    line-height: 20px;
+}
+
+#form {
+    width: 65%;
+}
+
+div.texto-aviso, #text-error p {
+    font-size: 17px;
+    font-family: Calibri;
+}
+#btns {
+    display: flex;
+    justify-content: center;
+}
+#btns .confirmar {
+    border: none;
+    border-radius: 6px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-family: Calibri;
+    line-height: 24px;
+    width: 155px;
+    height: 40px;
+}
+#sombra {
+    margin-top: 45px;
+}

@@ -49,6 +49,15 @@ div button.entendido {
 
 }
 
+div.text-aviso {
+    font-family: FS Emeric;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 0%;
+}
+
 #sombra {
     display: flex;
     background: #F4F6F8;
@@ -101,7 +110,7 @@ div button.entendido {
 
 #texto-indicador {
 
-    width: 86%;
+    width: 75%;
     line-height: 25px;
     margin-top: 30px;
     margin-bottom: 9px;
@@ -112,15 +121,19 @@ div button.entendido {
     }
 
 
-        #texto-indicador ul li {
+#texto-indicador ul li {
 
-            margin-bottom: 7px;
-            line-height: 20px;
-            width: 88%;
-
-               }
+margin-bottom: 7px;
+line-height: 20px;
+}
 
 
-
-
-
+#contenido .form-retiro .mensaje {
+	width: 90%;
+    padding-top: 0%;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0%;
+	height: 28%;
+	margin-top: 0%;
+}

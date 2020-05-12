@@ -1,0 +1,167 @@
+body {
+    background: #E5E5E5;
+}
+
+#card {
+    background: #ffffff;
+    box-shadow: 0px 2.40333px 41.2743px rgba(0, 0, 0, 0.04);
+    border-radius: 20.6371px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+} 
+
+#encabezado p{
+    width: 100%;
+    margin-top: 13%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+#encabezado p {
+    color: #696358;
+    font-size: 24px;
+    font-family: FS Emeric;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#contiene-registro {
+    width: 80%;
+    height: 80%;
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+
+#form-mail, #form-mail1, #form-mail2 {
+    width: 100%;
+}
+
+#form-mail .titulo, #form-mail1 .titulo,  #form-mail2 .titulo{
+    color: #00AE99;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Calibri;
+    margin-bottom: 0.5%;
+}
+
+
+div.mail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5%;
+    width: 100%;
+}
+
+div.pago1, div.pago2, div.pago3, div.res1, div.res2, div.res3{
+    width: 32%;
+}
+
+div.mail1, div.mail2 {
+    width: 47%;
+}
+div.pago1 select.selector, div.pago2 select.selector, 
+div.res1 select.selector, div.res2 select.selector, div.res3 select.selector {
+    border-radius: 8px;
+    border: none;
+    background: #F4F6F8;
+    color: #696358;
+    font-family: Calibri;
+    font-size: 14px;
+    width: 100%;
+    height: 38px;
+    padding-left: 3px;  
+}
+
+
+div.mail .mail1 input, div.mail .mail2 input{
+    background: #F4F6F8;
+    border-radius: 8px;
+    border: none;
+    background: #F4F6F8 url(../assets/images/lapiz.svg) no-repeat center;
+    background-size: auto;
+    background-position-x: right;
+    height: 38px;
+    width: 100%;
+    font-size: 14px;
+    text-indent: 0.5em;
+    font-family: Calibri;
+    color: #696358;
+    background-position: center right 0.5em
+}
+
+    
+div.pago3 input {
+    background: #F4F6F8;
+    border-radius: 8px;
+    border: none;    
+    background: #F4F6F8 url(../assets/images/lapiz.svg) no-repeat center;
+    background-position-x: right;
+    background-size: auto;    
+    width: 100%;
+    height: 38px;
+    color: #696358;
+    font-family: Calibri;
+    font-size: 14px;
+    text-indent: 0.5em;
+    background-position: center right 0.5em
+}
+
+div.mail .mail1 p, div.mail .mail2 p, div.pago1 p,
+div.pago2 p, div.pago3 p, div.res1 p, div.res2 p, div.res3 p{
+    font-size: 12px;
+    font-family: Calibri;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+    left: 2px;
+}
+
+
+div.pago3 input::placeholder, div.mail .mail1 input::placeholder,
+ div.mail .mail2 input::placeholder {
+    /*color: #959595;*/
+    color: #666666;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Calibri;
+    text-indent: 1%;
+}
+
+#btns {
+    display: flex;
+    text-align-last: justify;
+    justify-content: space-around;    
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+#btns button.atras {
+    border: none;
+    border-radius: 7px;
+    background: #ffffff;
+    border: 2px solid rgba(105, 97, 88, 0.2);
+    color: #696158;
+    font-size: 18px;
+    width: 168.65px;
+    height: 44.64px;
+    text-align-last: center;
+    font-family: Calibri;
+    margin-right: auto;
+}
+
+#btns button.finalizar {
+    border: none;
+    border-radius: 7px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 168.65px;
+    height: 44.64px;
+    text-align-last: center;
+    font-family: Calibri;
+}

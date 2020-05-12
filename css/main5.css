@@ -1,0 +1,37 @@
+header{
+    background: #FF4F00;
+    height: 60px;
+}
+
+header .navbar{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 150px;
+    height: 43px;
+}
+
+header .hashtag{
+    font-style: normal;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+section div.form-retiro {
+    width: 20%;
+    height: 70%;
+    left: 15%;
+    top: 158px;
+    background: #ffffff;
+    box-shadow: 0px 2.40333px 41.2743px rgba(0, 0, 0, 0.04);
+    border-radius: 20.6371px;
+    position: absolute;
+}

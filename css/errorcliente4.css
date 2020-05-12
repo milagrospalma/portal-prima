@@ -1,0 +1,82 @@
+#contenido .form-retiro {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 75%;
+	width: 55%;
+	padding: 3%;
+	margin-top: 20px;
+	justify-content: space-around;
+}
+
+section div.form-retiro {
+    width: 20%;
+    height: 70%;
+    left: 20%;
+    top: 20%;
+}
+
+#contenido .form-retiro .mensaje {
+	width: 90%;
+	padding-top: 3%;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 3%;
+	height: 60%;
+}
+
+div.texto-aviso {
+    font-family: FS Emeric;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 8%;
+}
+
+#img-cliente {
+    margin-left: 6%;
+}
+
+div.texto-aviso p {
+	width: 80%;
+}
+
+div.text-indicador {
+    width: 80%;
+}
+
+div.text-indicador p{
+    color: #696158;
+    font-family: Calibri;
+    font-size: 17px;
+    line-height: 20px;
+    text-align-last: start;
+}
+
+form.form-montos div.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.btns {
+    display: flex;
+    padding: 6px;
+}
+
+div.btns button {
+    border: none;
+    border-radius: 6px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+    width: 155px;
+    height: 40px;
+    margin: 46px;
+}
+
+div.btns button.enviar, div.btns button.modificar {
+    font-family: Calibri;
+    font-weight: 500;
+}

@@ -1,19 +1,32 @@
+@font-face {
+    font-family: FS Emeric;
+    src: url(../fonts/FSEmeric-SemiBold.otf);
+}
+
 #container-login{
     background-color: #F3F3F2;
-    height: 70%;
+    height: 100%;
 }
 
 #container-login .container{
     display: flex;
     width: 100%;
+     height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: -100;
+   background: #e9e9e9;
 }
 
 #container-login .form-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     margin-top: 5%;
     margin-left: 15%;
+
 }
 
 #container-login .form-container>div{
@@ -29,15 +42,16 @@
     color: #FF4F00;
     margin-bottom: 1rem;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 28px;
     letter-spacing: -0.00615385em;
 }
 
 #container-login .form-container p{
     color: #696158;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 20px;
+    font-family: Calibri;
 }
 
 #container-login .form-container .card-form{
@@ -49,11 +63,11 @@
     width: 312px;
     padding: 29px 26px 29px 29px;
 }
-}
 
+/*
 #container-login .form-container .card-form form{
     padding: 2.8rem;
-}
+}*/
 
 #container-login .form-container .card-form form select, #container-login .form-container .card-form form input{
     width: 100%;
@@ -81,15 +95,15 @@
 }
 
 #container-login .form-container .card-form form input::placeholder{
-    color: #9F9F9F;
+    color: #696158;
 }
 
 #container-login #tipoDocumento{
-    background: #F4F6F8 url(../assets/images/dni.svg) no-repeat 14px 10px;
+    background: #F4F6F8 url(../assets/images/dni.svg) no-repeat 19px 10px;
     background-position: center left 1rem;
     height: 48px;
     width: 256px;    
-    color: #9F9F9F;
+    color: #696158;
 }
 
 #container-login #numeroDocumento{
@@ -97,6 +111,7 @@
     background-position: center left 1rem;
     height: 38px;
     width: 256px;
+    color: #696158;
 }
 
 #container-login #fechaNacimiento{
@@ -104,10 +119,6 @@
     background-position: center left 1rem;
     height: 38px;
     width: 256px;
-}
-
-#img-container img {
-    height: 500px;
 }
 
 #container-login .form-container .card-form form button{
@@ -129,4 +140,9 @@
 #captcha {    
     width: 100%;
     height: 60px;   
+}
+
+#img-container img {
+    margin-top: 45px;
+    height: 500px;
 }

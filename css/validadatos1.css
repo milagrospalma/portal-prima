@@ -19,7 +19,7 @@ body {
 }
 
 #contenido .form-retiro .mensaje{
-	width: 85%;
+	width: 75%;
 	height: 35%;
 	background: #F4F6F8;
 	border-radius: 8px;
@@ -90,9 +90,9 @@ div.item-input input::placeholder{
 }
 
 form.form-montos div.btns{
-	display: flex;
-	justify-content: space-around;
-	line-height: 4pc;
+    display: flex;
+    justify-content: space-around;
+    line-height: 10pc;
 }
 
 div.btns button {

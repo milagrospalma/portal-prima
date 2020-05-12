@@ -5,42 +5,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--NORMALIZE-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <!--ICONOS-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--CSS-->
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/loginerror404.css">
-  <link rel="stylesheet" href="css/libredisponibilidad.css">
+  <link rel="stylesheet" href="css/main3.css">
+  <link rel="stylesheet" href="css/validadatos3.css">
+  <link rel="stylesheet" href="css/validaSms3.css">
+    <link rel="stylesheet" href="css/libredisponibilidad.css">
 
-  <title>Login</title>
+  <style type="text/css">
+    body,
+    td,
+    th {
+      font-size: 18px;
+    }
+  </style>
+  <title>Validacion sms</title>
 </head>
 
 <body>
-  <div id="opaco">
-    <header>
-      <div class="navbar">
-        <a href="#"><img class="logo" src="assets/images/logoprima.svg" alt="logo"></a>
-        <p class="hashtag">#EstamosTrabajandoPorTi</p>
-      </div>
-    </header>
+  <header class="header">
+    <div class="navbar">
+      <a href="#"><img class="logo" src="assets/images/logoprima.png" alt="logo"></a>
+      <p><b class="hashtag">#EstamosTrabajandoPorTi</b></p>
+    </div>
+  </header>
 
-    <section id="contenido">
-      <div id="card-error">
-        <div id="sombra">
-          <div id="img-error"><img src="assets/images/bien.svg" alt=""></div>
-          <div id="text-error">
-            <h1>Aportes con libre disponibilidad</h1><br>
-            <p>Sobre mantener el 25% en la AFP con libre disponibilidad:</p>
-          </div>
+  <section id="contenido">
+    <div class="form-retiro">
+      
+     <div class="mensaje">
+        <div id="img-cliente">
+          <img src="assets/images/bien.svg" alt="bien.svg" class="img-cliente">
         </div>
-        <div id="form">
+        <div id="text-error">
+            <p class="title">Aportes con libre disponibilidad</p>
+            <p class="subtitle">Sobre mantener el 25% en la AFP con libre disponibilidad:</p>
+          </div>
+      </div>
 
-          <div id="texto-aviso">
+     <div id="texto-indicador">
 
             <ul>
               <li type="disc">Cuando quieras podrás realizar retiros parciales o el monto total a tráves
                 de una solicitud y se abonará en tres días útiles a la cuenta bancaria que indiques.
-              </li>
+              </li></p>
               <li type="disc">Tu 25% permanecerá en el mismo tipo de fondo donde tienes tus aportes
                 obligatorios y podrá recuperarse en el tiempo, tal como lo hará tu fondo obligatorio.
               </li>
@@ -50,36 +61,13 @@
 
           </div>
 
-
-
-
-
-
-
-
-          <div class="btns">
-
-            <div><button class="confirmar">Confirmar</button></div>
-          </div>
-          </form>
-
-
-        </div>
-
-
-
-
-
-
+      <div class="btns">
+        <div><button class="entendido">Entendido</button></div>
+       
       </div>
 
-
-    </section>
-
-
-
-  </div>
-
+    </div>
+  </section>
 
 </body>
 

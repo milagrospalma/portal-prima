@@ -8,19 +8,19 @@ body {
 }
 
 #contenido .form-retiro {
-    display: flex;
-    align-items: center;
-    flex-direction: column;    
-    height: 70%;
-    width: 50%;
-    left: 25%;
-    top: 20%;
-    padding: 0 2em 0 2em;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 80%;
+	width: 60%;
+	left: 25%;
+	top: 20%;
+	padding: 0 2em 0 2em;
 }
 
 #contenido .form-retiro .mensaje{
-	width: 85%;
-	height: 35%;
+	width: 75%;
+	height: 20%;
 	background: #F4F6F8;
 	border-radius: 8px;
 	margin-top: 10px;
@@ -65,7 +65,7 @@ form.form-montos div.item-input{
 }
 
 div.item-input input {
-	width: 334px;
+	width: 300px;
 	height: 62px;
 	border-radius: 12.1712px;
 	border: none;

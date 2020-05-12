@@ -1,6 +1,7 @@
 body {
-    background: rgba(0, 0, 0, 0.56);
-    font-family: Calibri, FS Emeric;
+	background: rgba(0, 0, 0, 0.56);
+	font-family: Calibri, FS Emeric;
+	margin-top: 0px;
 }
 
 #contenido {
@@ -19,7 +20,7 @@ body {
 }
 
 #contenido .form-retiro .mensaje{
-	width: 85%;
+	width: 65%;
 	height: 35%;
 	background: #F4F6F8;
 	border-radius: 8px;

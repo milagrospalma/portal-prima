@@ -67,7 +67,7 @@ div button.entendido {
 }
 
 #text-error p.title {
-    color: #00AE99;
+    color: #FF4F00;
     font-size: 24px;
     font-family: 'FS Emeric';
     margin-bottom: 5px;
@@ -101,7 +101,7 @@ div button.entendido {
 
 #texto-indicador {
 
-    width: 86%;
+    width: 75%;
     line-height: 25px;
     margin-top: 30px;
     margin-bottom: 9px;
@@ -116,7 +116,6 @@ div button.entendido {
 
             margin-bottom: 7px;
             line-height: 20px;
-            width: 88%;
 
                }
 

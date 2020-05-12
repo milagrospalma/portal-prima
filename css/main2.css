@@ -98,9 +98,7 @@ div.text-indicador p{
 
 hr.divide {
     border: dashed  rgba(0, 0, 0, 0.1);;
-    width: 100%;  
-    border: 1px dashed rgba(0, 0, 0, 0.1);
- 
+    width: 90%;   
 }
 
 div.part2 form {

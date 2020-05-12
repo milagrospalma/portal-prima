@@ -1,5 +1,5 @@
 body {
-    background: rgba(0, 0, 0, 0.56);
+    background: #e9e9e9;
 }
 
 #card-error {
@@ -7,12 +7,13 @@ body {
     box-shadow: 0px 2.40333px 41.2743px rgba(0, 0, 0, 0.04);
     border-radius: 20.6371px;
     display: flex;
+    font-family: FS Emeric;
     align-items: center;
     flex-direction: column;
-    left: 15%;
+    left: 20%;
     top: 20%;
     position: absolute;
-    height: 70%;
+    height: 60%;
     width: 60%;
     justify-content: space-around;
 }
@@ -26,16 +27,23 @@ body {
     align-items: center;
 }
 
+#img-error {
+    margin-left: 21px;
+}
+
 #img-error img{
     width: 50px;
     height: 50px;
-    padding: 8%;
 }
 
 #text-error {
     margin-left: 10%;
+    padding: 6px;
 }
-
+#text-error p{
+    font-family: Calibri;
+    font-size: 17px;
+}
 h1 {
     color: #FF4F00;
 }

@@ -1,0 +1,97 @@
+body {
+    background: #F3F3F2;
+}
+
+#contenido .form-retiro {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+	margin-left: 13%;
+	margin-top: -2%;
+	top: 70;
+}
+
+div.form {
+    width: 80%;
+    margin-top: 5%;
+}
+
+#item-input .text {    
+    width: 50%;
+    color: #656565;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+div.mensaje {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background: #F4F6F8;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+#img-cliente {
+    padding: 3% 10% 3% 10%;
+}
+
+div.text-aviso {
+    font-family: FS Emeric;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -0.00615385em;
+    color: #696158;
+}
+
+div.text-izq p{
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #656565;
+}
+
+div#item-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+#item-input  .text-der {
+    font-family: FS Emeric;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    color: #00AE99;
+}
+
+    
+    
+#btns {
+    display: flex;
+    text-align-last: justify;
+    justify-content: space-around;    
+    margin: 5% 0 5% 0;
+}
+
+#btns div {
+    margin-left: 5%;
+}
+
+#btns button{
+    border: none;
+    border-radius: 7px;
+    background: #FF4F00;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 168.65px;
+    height: 44.64px;
+    text-align-last: center;
+    font-family: Calibri;
+}

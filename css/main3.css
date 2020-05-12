@@ -93,7 +93,8 @@ div.text-indicador p{
     font-family: Calibri;
     font-size: 16px;
     line-height: 35px;
-    text-align: center;
+     width: 95%;
+
 }
 
 hr.divide {
